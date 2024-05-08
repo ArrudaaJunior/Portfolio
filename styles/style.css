@@ -89,7 +89,7 @@ body {
 .apresentacao__links__navegacao{
     height: 70px;
     border: 2px solid var(--cor-tercearia) ;
-    width: 50%px;
+    width: 50%;
     text-align: center;
     border-radius: 8px;
     font-size: 1.5rem;
@@ -124,15 +124,22 @@ body {
 
 @media (max-width: 1200px) {
     .cabecalho {
-        padding: 10%;
+        padding: 8%;
+        
     }
 
     .cabecalho__menu{
         justify-content: center;
+        gap: 20px ;
     }
     
     .apresentacao {
         flex-direction: column-reverse;
+        padding: 5%;
+    }
+
+    .apresentacao__conteudo{
+        width: auto;
     }
 }
 
